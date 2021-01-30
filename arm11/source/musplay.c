@@ -21,7 +21,7 @@
 #include "w_wad.h"
 
 #define MUS_MIX_CHANNEL 23
-#define MUS_PLAYBACK_RATE 11025
+#define MUS_PLAYBACK_RATE 44100 // There. It sounds good
 
 void mixer_update(short *pAudioData, int count);
 int mixer_pos();
